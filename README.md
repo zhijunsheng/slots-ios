@@ -1,0 +1,2 @@
+# slots-ios
+Slots game
