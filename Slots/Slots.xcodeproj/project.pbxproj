@@ -14,6 +14,7 @@
 		072D83A8248A699300B83095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072D83A7248A699300B83095 /* Assets.xcassets */; };
 		072D83AB248A699300B83095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072D83A9248A699300B83095 /* LaunchScreen.storyboard */; };
 		072D83B6248A699300B83095 /* SlotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072D83B5248A699300B83095 /* SlotsTests.swift */; };
+		072D83C1248A6B5100B83095 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072D83C0248A6B5100B83095 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		072D83B1248A699300B83095 /* SlotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072D83B5248A699300B83095 /* SlotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotsTests.swift; sourceTree = "<group>"; };
 		072D83B7248A699300B83095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072D83C0248A6B5100B83095 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				072D839E248A699200B83095 /* AppDelegate.swift */,
 				072D83A0248A699200B83095 /* SceneDelegate.swift */,
+				072D83C0248A6B5100B83095 /* BoardView.swift */,
 				072D83A2248A699200B83095 /* ViewController.swift */,
 				072D83A4248A699200B83095 /* Main.storyboard */,
 				072D83A7248A699300B83095 /* Assets.xcassets */,
@@ -145,7 +148,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "Zhijun Sheng";
+				ORGANIZATIONNAME = "Gold Thumb Inc.";
 				TargetAttributes = {
 					072D839A248A699200B83095 = {
 						CreatedOnToolsVersion = 11.5;
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				072D83A3248A699200B83095 /* ViewController.swift in Sources */,
+				072D83C1248A6B5100B83095 /* BoardView.swift in Sources */,
 				072D839F248A699200B83095 /* AppDelegate.swift in Sources */,
 				072D83A1248A699200B83095 /* SceneDelegate.swift in Sources */,
 			);
